@@ -16,3 +16,5 @@ def create_exam(fname):
 j=int(input("Количество билетов "))
 for i in range(j):
     create_exam("exam"+str(i)+".txt")
+print("Билеты ищите в папке exam")
+print("Перед повторным созданием билетов удалите/переместите старые5")
