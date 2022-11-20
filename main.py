@@ -10,6 +10,10 @@ def create_exam(fname):
         f = open("pools/"+patch+"/"+file_name,"r")
         exam.write(f.read())
         exam.write("\n")
+        sf
+        sf
+        sf
+        sdf
         exam.write("\n")
     exam.close()
 
