@@ -13,6 +13,6 @@ def create_exam(fname):
         exam.write("\n")
     exam.close()
 
-j=int(input())
+j=int(input("Количество билетов "))
 for i in range(j):
     create_exam("exam"+str(i)+".txt")
