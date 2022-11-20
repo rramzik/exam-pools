@@ -8,7 +8,6 @@ def create_exam(fname):
         ddd = os.listdir('pools/'+patch)
         file_name = random.choice(ddd)
         f = open("pools/"+patch+"/"+file_name,"r")
-        #print(f.read())
         exam.write(f.read())
         exam.write("\n")
         exam.write("\n")
